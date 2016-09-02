@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD6B9A41D7922C3002BD5A8 /* webImageBrowser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1FD6B9A31D7922C3002BD5A8 /* webImageBrowser.gif */; };
 		632F33DD1D17DEA600C6D317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F33DC1D17DEA600C6D317 /* main.m */; };
 		632F33E01D17DEA600C6D317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F33DF1D17DEA600C6D317 /* AppDelegate.m */; };
 		632F33E31D17DEA600C6D317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F33E21D17DEA600C6D317 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0ABC754CAD5D189472E51247 /* Pods-photo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo/Pods-photo.release.xcconfig"; sourceTree = "<group>"; };
+		1FD6B9A31D7922C3002BD5A8 /* webImageBrowser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = webImageBrowser.gif; sourceTree = "<group>"; };
 		632F33D81D17DEA600C6D317 /* photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		632F33DC1D17DEA600C6D317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		632F33DE1D17DEA600C6D317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				632F33E41D17DEA600C6D317 /* Main.storyboard */,
 				632F340A1D17E25700C6D317 /* test.html */,
 				63B5685D1D1933CB00D0F8BA /* webjs.js */,
+				1FD6B9A31D7922C3002BD5A8 /* webImageBrowser.gif */,
 				63B5685F1D19346700D0F8BA /* MacroDefinition.h */,
 				632F33E71D17DEA600C6D317 /* Assets.xcassets */,
 				632F33E91D17DEA600C6D317 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 				632F33E81D17DEA600C6D317 /* Assets.xcassets in Resources */,
 				632F33E61D17DEA600C6D317 /* Main.storyboard in Resources */,
 				63B5685E1D1933CB00D0F8BA /* webjs.js in Resources */,
+				1FD6B9A41D7922C3002BD5A8 /* webImageBrowser.gif in Resources */,
 				632F34201D17EB2C00C6D317 /* MJPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
