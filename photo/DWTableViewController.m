@@ -2,8 +2,8 @@
 //  DWTableViewController.m
 //  photo
 //
-//  Created by David on 16/6/21.
-//  Copyright © 2016年 David. All rights reserved.
+//  Created by 宋元明 on 16/8/29.
+//  Copyright © 2016年 宋元明. All rights reserved.
 //
 
 #import "DWTableViewController.h"
