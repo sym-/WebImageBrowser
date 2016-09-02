@@ -1,5 +1,5 @@
 //
-//  DWTableViewController.h
+//  YMWebViewVC.h
 //  photo
 //
 //  Created by 宋元明 on 16/8/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DWTableViewController : UIViewController
+@interface YMWebViewVC : UIViewController
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "DWWebViewVC.h"
-#import "DWTableViewController.h"
+#import "YMWebViewVC.h"
+#import "YMTableViewController.h"
 
 @interface ViewController ()
 
@@ -26,12 +26,12 @@
 }
 - (IBAction)webClick:(id)sender {
     
-    DWWebViewVC *webVC = [[DWWebViewVC alloc] init];
+    YMWebViewVC *webVC = [[YMWebViewVC alloc] init];
     [self.navigationController pushViewController:webVC animated:YES];
 }
 - (IBAction)imageClick:(id)sender {
     
-    DWTableViewController *tableVC = [[DWTableViewController alloc] init];
+    YMTableViewController *tableVC = [[YMTableViewController alloc] init];
     [self.navigationController pushViewController:tableVC animated:YES];
 }
 

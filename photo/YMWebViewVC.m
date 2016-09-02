@@ -1,23 +1,23 @@
 //
-//  DWWebViewVC.m
+//  YMWebViewVC.m
 //  photo
 //
 //  Created by 宋元明 on 16/8/29.
 //  Copyright © 2016年 宋元明. All rights reserved.
 //
 
-#import "DWWebViewVC.h"
+#import "YMWebViewVC.h"
 #import "MJPhoto.h"
 #import "MJPhotoBrowser.h"
 #import "UIView+Extension.h"
 #import "Tools.h"
 
-@interface DWWebViewVC ()<UIWebViewDelegate>
+@interface YMWebViewVC ()<UIWebViewDelegate>
 @property (nonatomic,weak)UIWebView *myWebView;
 @property (nonatomic,strong) NSMutableArray *arrayImagesList;//web中所有图片
 @end
 
-@implementation DWWebViewVC
+@implementation YMWebViewVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

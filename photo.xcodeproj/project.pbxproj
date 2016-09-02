@@ -15,7 +15,7 @@
 		632F33E81D17DEA600C6D317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632F33E71D17DEA600C6D317 /* Assets.xcassets */; };
 		632F33EB1D17DEA600C6D317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632F33E91D17DEA600C6D317 /* LaunchScreen.storyboard */; };
 		632F340B1D17E25700C6D317 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 632F340A1D17E25700C6D317 /* test.html */; };
-		632F340E1D17E8D600C6D317 /* DWWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F340D1D17E8D600C6D317 /* DWWebViewVC.m */; };
+		632F340E1D17E8D600C6D317 /* YMWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F340D1D17E8D600C6D317 /* YMWebViewVC.m */; };
 		632F341F1D17EB2C00C6D317 /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F34111D17EB2C00C6D317 /* MJPhoto.m */; };
 		632F34201D17EB2C00C6D317 /* MJPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 632F34121D17EB2C00C6D317 /* MJPhotoBrowser.bundle */; };
 		632F34211D17EB2C00C6D317 /* MJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F34141D17EB2C00C6D317 /* MJPhotoBrowser.m */; };
@@ -27,7 +27,7 @@
 		632F345B1D17ED3D00C6D317 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F345A1D17ED3D00C6D317 /* UIView+Extension.m */; };
 		632F345E1D17EDFC00C6D317 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 632F345D1D17EDFC00C6D317 /* Tools.m */; };
 		63B5685E1D1933CB00D0F8BA /* webjs.js in Resources */ = {isa = PBXBuildFile; fileRef = 63B5685D1D1933CB00D0F8BA /* webjs.js */; };
-		63B568621D193C0A00D0F8BA /* DWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B568611D193C0A00D0F8BA /* DWTableViewController.m */; };
+		63B568621D193C0A00D0F8BA /* YMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B568611D193C0A00D0F8BA /* YMTableViewController.m */; };
 		E3337728BD432022D2B90C5F /* libPods-photo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7256DDA16DC005DA17E04459 /* libPods-photo.a */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +45,8 @@
 		632F33EA1D17DEA600C6D317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		632F33EC1D17DEA600C6D317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632F340A1D17E25700C6D317 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
-		632F340C1D17E8D600C6D317 /* DWWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWWebViewVC.h; sourceTree = "<group>"; };
-		632F340D1D17E8D600C6D317 /* DWWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWWebViewVC.m; sourceTree = "<group>"; };
+		632F340C1D17E8D600C6D317 /* YMWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMWebViewVC.h; sourceTree = "<group>"; };
+		632F340D1D17E8D600C6D317 /* YMWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMWebViewVC.m; sourceTree = "<group>"; };
 		632F34101D17EB2C00C6D317 /* MJPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPhoto.h; sourceTree = "<group>"; };
 		632F34111D17EB2C00C6D317 /* MJPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPhoto.m; sourceTree = "<group>"; };
 		632F34121D17EB2C00C6D317 /* MJPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJPhotoBrowser.bundle; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 		632F345D1D17EDFC00C6D317 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		63B5685D1D1933CB00D0F8BA /* webjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webjs.js; sourceTree = "<group>"; };
 		63B5685F1D19346700D0F8BA /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
-		63B568601D193C0A00D0F8BA /* DWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTableViewController.h; sourceTree = "<group>"; };
-		63B568611D193C0A00D0F8BA /* DWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTableViewController.m; sourceTree = "<group>"; };
+		63B568601D193C0A00D0F8BA /* YMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMTableViewController.h; sourceTree = "<group>"; };
+		63B568611D193C0A00D0F8BA /* YMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMTableViewController.m; sourceTree = "<group>"; };
 		7256DDA16DC005DA17E04459 /* libPods-photo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-photo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0DD2AC9108B950295F58F0 /* Pods-photo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo/Pods-photo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,10 +116,10 @@
 				632F33DF1D17DEA600C6D317 /* AppDelegate.m */,
 				632F33E11D17DEA600C6D317 /* ViewController.h */,
 				632F33E21D17DEA600C6D317 /* ViewController.m */,
-				63B568601D193C0A00D0F8BA /* DWTableViewController.h */,
-				63B568611D193C0A00D0F8BA /* DWTableViewController.m */,
-				632F340C1D17E8D600C6D317 /* DWWebViewVC.h */,
-				632F340D1D17E8D600C6D317 /* DWWebViewVC.m */,
+				63B568601D193C0A00D0F8BA /* YMTableViewController.h */,
+				63B568611D193C0A00D0F8BA /* YMTableViewController.m */,
+				632F340C1D17E8D600C6D317 /* YMWebViewVC.h */,
+				632F340D1D17E8D600C6D317 /* YMWebViewVC.m */,
 				632F33E41D17DEA600C6D317 /* Main.storyboard */,
 				632F340A1D17E25700C6D317 /* test.html */,
 				63B5685D1D1933CB00D0F8BA /* webjs.js */,
@@ -311,11 +311,11 @@
 				632F345E1D17EDFC00C6D317 /* Tools.m in Sources */,
 				632F34241D17EB2C00C6D317 /* MJPhotoToolbar.m in Sources */,
 				632F33E31D17DEA600C6D317 /* ViewController.m in Sources */,
-				63B568621D193C0A00D0F8BA /* DWTableViewController.m in Sources */,
+				63B568621D193C0A00D0F8BA /* YMTableViewController.m in Sources */,
 				632F34231D17EB2C00C6D317 /* MJPhotoProgressView.m in Sources */,
 				632F341F1D17EB2C00C6D317 /* MJPhoto.m in Sources */,
 				632F345B1D17ED3D00C6D317 /* UIView+Extension.m in Sources */,
-				632F340E1D17E8D600C6D317 /* DWWebViewVC.m in Sources */,
+				632F340E1D17E8D600C6D317 /* YMWebViewVC.m in Sources */,
 				632F34261D17EB2C00C6D317 /* SDWebImageManager+MJ.m in Sources */,
 				632F33E01D17DEA600C6D317 /* AppDelegate.m in Sources */,
 				632F34221D17EB2C00C6D317 /* MJPhotoLoadingView.m in Sources */,

@@ -1,12 +1,12 @@
 //
-//  DWTableViewController.m
+//  YMTableViewController.m
 //  photo
 //
 //  Created by 宋元明 on 16/8/29.
 //  Copyright © 2016年 宋元明. All rights reserved.
 //
 
-#import "DWTableViewController.h"
+#import "YMTableViewController.h"
 #import "MJPhoto.h"
 #import "MJPhotoBrowser.h"
 #import "UIImageView+WebCache.h"
@@ -14,12 +14,12 @@
 
 #define ImageMargin 30
 
-@interface DWTableViewController ()
+@interface YMTableViewController ()
 
 @property (nonatomic, strong) NSArray *srcStringArray;
 @end
 
-@implementation DWTableViewController
+@implementation YMTableViewController
 
 - (void)viewDidLoad
 {
